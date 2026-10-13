@@ -1,0 +1,510 @@
+{
+  "aisles": [
+    {
+      "name": "Fruits et légumes",
+      "position": 0
+    },
+    {
+      "name": "Boulangerie",
+      "position": 1
+    },
+    {
+      "name": "Boucherie / Poissonnerie",
+      "position": 2
+    },
+    {
+      "name": "Crèmerie",
+      "position": 3
+    },
+    {
+      "name": "Épicerie salée",
+      "position": 4
+    },
+    {
+      "name": "Épicerie sucrée",
+      "position": 5
+    },
+    {
+      "name": "Surgelés",
+      "position": 6
+    },
+    {
+      "name": "Boissons",
+      "position": 7
+    },
+    {
+      "name": "Hygiène / Maison",
+      "position": 8
+    }
+  ],
+  "format": "foodhelp-backup",
+  "ingredients": [
+    {
+      "aisle": null,
+      "ciqual_code": 16400,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "beurre",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": "Crèmerie",
+      "ciqual_code": 16402,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "beurre demi-sel",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 20353,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "carotte",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 19431,
+      "default_unit": "ml",
+      "density_g_per_ml": 1,
+      "kcal_per_100g": null,
+      "name": "crème fraîche",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": "Boissons",
+      "ciqual_code": 18044,
+      "default_unit": "ml",
+      "density_g_per_ml": 1,
+      "kcal_per_100g": null,
+      "name": "eau",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": "Épicerie salée",
+      "ciqual_code": 9445,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "farine",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": null,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "gruyère",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 19033,
+      "default_unit": "ml",
+      "density_g_per_ml": 1.03,
+      "kcal_per_100g": null,
+      "name": "lait",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 28725,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "lardon fumé",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": null,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "muscade",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 22000,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "œuf",
+      "piece_weight_g": 55
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 23414,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "Pate brisée",
+      "piece_weight_g": 300
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 11015,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "poivre",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 4048,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "pomme de terre",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 11058,
+      "default_unit": "pincee",
+      "density_g_per_ml": 1.2,
+      "kcal_per_100g": null,
+      "name": "sel",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": null,
+      "default_unit": "cs",
+      "density_g_per_ml": 0.85,
+      "kcal_per_100g": null,
+      "name": "sucre",
+      "piece_weight_g": null
+    }
+  ],
+  "inventory": [],
+  "recipes": [
+    {
+      "cook_minutes": 25,
+      "description": "Pâte à crêpes simple avec 2 œufs, pour environ 12 à 14 crêpes",
+      "ingredients": [
+        {
+          "name": "farine",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1.03,
+          "name": "lait",
+          "quantity": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "œuf",
+          "piece_weight_g": 55,
+          "quantity": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "beurre",
+          "note": "fondu",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1.2,
+          "name": "sel",
+          "quantity": 1,
+          "unit": "pincee"
+        },
+        {
+          "density_g_per_ml": 0.85,
+          "name": "sucre",
+          "optional": true,
+          "quantity": 2,
+          "unit": "cs"
+        }
+      ],
+      "notes": "Si la pâte est trop épaisse après le repos, ajouter un peu de lait ou d'eau. Avec du beurre demi-sel, supprimer la pincée de sel.",
+      "prep_minutes": 10,
+      "servings": 6,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Verser la farine, le sel et le sucre dans un saladier."
+        },
+        {
+          "text": "Creuser un puits au centre."
+        },
+        {
+          "text": "Casser les œufs dans le puits et mélanger au fouet en incorporant la farine petit à petit."
+        },
+        {
+          "text": "Verser le lait progressivement en fouettant jusqu'à obtenir une pâte lisse."
+        },
+        {
+          "text": "Ajouter le beurre fondu et mélanger."
+        },
+        {
+          "minutes": 30,
+          "text": "Couvrir et laisser reposer la pâte."
+        },
+        {
+          "text": "Faire chauffer une poêle légèrement beurrée à feu moyen-vif."
+        },
+        {
+          "text": "Verser une louche de pâte en inclinant la poêle pour la répartir."
+        },
+        {
+          "minutes": 2,
+          "text": "Cuire jusqu'à ce que les bords se détachent."
+        },
+        {
+          "minutes": 1,
+          "text": "Retourner la crêpe et cuire l'autre face."
+        }
+      ],
+      "tags": [
+        "crêpe",
+        "sucré",
+        "dessert",
+        "goûter"
+      ],
+      "title": "Pâte à crêpes"
+    },
+    {
+      "description": "Pâte brisée simple pour un moule à tarte, idéale pour les quiches",
+      "ingredients": [
+        {
+          "name": "farine",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "name": "beurre demi-sel",
+          "note": "froid, coupé en dés",
+          "quantity": 125,
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1,
+          "name": "eau",
+          "note": "froide",
+          "quantity": 50,
+          "unit": "ml"
+        }
+      ],
+      "notes": "Le beurre demi-sel apporte le sel : inutile d'en ajouter. La cuisson se fait avec la garniture.",
+      "prep_minutes": 10,
+      "servings": 6,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Dans un saladier, sabler la farine et le beurre du bout des doigts jusqu'à obtenir une texture de sable grossier."
+        },
+        {
+          "text": "Ajouter l'eau petit à petit et rassembler la pâte en boule sans trop la travailler."
+        },
+        {
+          "minutes": 30,
+          "text": "Filmer la pâte et la laisser reposer au frigo."
+        },
+        {
+          "text": "Étaler la pâte et la déposer dans le moule à tarte."
+        },
+        {
+          "text": "Piquer le fond de pâte avec une fourchette."
+        }
+      ],
+      "tags": [
+        "pâte",
+        "pâte brisée",
+        "salé",
+        "quiche"
+      ],
+      "title": "Pâte brisée au beurre demi-sel"
+    },
+    {
+      "cook_minutes": 25,
+      "description": "Purée douce et onctueuse, mi-pomme de terre mi-carotte",
+      "ingredients": [
+        {
+          "name": "pomme de terre",
+          "note": "type Bintje ou Agria",
+          "quantity": 600,
+          "unit": "g"
+        },
+        {
+          "name": "carotte",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1.03,
+          "name": "lait",
+          "note": "chaud",
+          "quantity": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "beurre",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1.2,
+          "name": "sel",
+          "quantity": 1,
+          "unit": "cc"
+        },
+        {
+          "name": "poivre",
+          "quantity": 1,
+          "unit": "pincee"
+        },
+        {
+          "name": "muscade",
+          "note": "râpée",
+          "optional": true,
+          "quantity": 1,
+          "unit": "pincee"
+        }
+      ],
+      "notes": "Éviter le mixeur plongeant, qui rend les pommes de terre élastiques. Ajuster la quantité de lait selon la texture voulue. Avec du beurre demi-sel, réduire le sel.",
+      "prep_minutes": 15,
+      "servings": 4,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Éplucher les pommes de terre et les carottes."
+        },
+        {
+          "text": "Couper les pommes de terre en gros morceaux."
+        },
+        {
+          "text": "Couper les carottes en rondelles."
+        },
+        {
+          "text": "Mettre les légumes dans une casserole d'eau froide salée."
+        },
+        {
+          "minutes": 25,
+          "text": "Porter à ébullition et cuire jusqu'à ce que les carottes soient tendres."
+        },
+        {
+          "text": "Égoutter les légumes."
+        },
+        {
+          "minutes": 1,
+          "text": "Remettre les légumes dans la casserole chaude pour évaporer l'eau."
+        },
+        {
+          "text": "Écraser les légumes avec le beurre au presse-purée."
+        },
+        {
+          "text": "Incorporer le lait chaud petit à petit."
+        },
+        {
+          "text": "Assaisonner avec le poivre et la muscade, puis rectifier le sel."
+        }
+      ],
+      "tags": [
+        "purée",
+        "légumes",
+        "accompagnement",
+        "salé"
+      ],
+      "title": "Purée pommes de terre et carottes"
+    },
+    {
+      "cook_minutes": 35,
+      "description": "Garniture classique de quiche lorraine aux lardons, à verser sur une pâte brisée",
+      "ingredients": [
+        {
+          "name": "lardon fumé",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "œuf",
+          "piece_weight_g": 55,
+          "quantity": 3,
+          "unit": "piece"
+        },
+        {
+          "density_g_per_ml": 1,
+          "name": "crème fraîche",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "density_g_per_ml": 1.03,
+          "name": "lait",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "poivre"
+        },
+        {
+          "name": "Pate brisée",
+          "piece_weight_g": 300,
+          "quantity": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "muscade",
+          "note": "râpée",
+          "optional": true
+        },
+        {
+          "name": "gruyère",
+          "note": "râpé, ou emmental",
+          "optional": true,
+          "quantity": 80,
+          "unit": "g"
+        }
+      ],
+      "notes": "Prévoir un fond de pâte brisée (voir la recette de pâte brisée au beurre demi-sel). Pas besoin de sel : les lardons et le beurre demi-sel de la pâte en apportent déjà.",
+      "prep_minutes": 15,
+      "servings": 6,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Préchauffer le four à 200 °C."
+        },
+        {
+          "minutes": 5,
+          "text": "Faire dorer les lardons à la poêle sans matière grasse."
+        },
+        {
+          "text": "Répartir les lardons sur le fond de pâte."
+        },
+        {
+          "text": "Dans un saladier, battre les œufs avec la crème, le lait, le poivre et la muscade."
+        },
+        {
+          "text": "Ajouter le fromage râpé au mélange."
+        },
+        {
+          "text": "Verser le mélange sur les lardons."
+        },
+        {
+          "minutes": 35,
+          "text": "Enfourner jusqu'à ce que la quiche soit dorée et prise au centre."
+        }
+      ],
+      "tags": [
+        "quiche",
+        "salé",
+        "plat",
+        "lardons"
+      ],
+      "title": "Quiche lorraine"
+    }
+  ],
+  "shopping_list": [],
+  "version": 1
+}
