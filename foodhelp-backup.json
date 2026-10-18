@@ -41,6 +41,15 @@
   "ingredients": [
     {
       "aisle": null,
+      "ciqual_code": 13005,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "banane",
+      "piece_weight_g": 120
+    },
+    {
+      "aisle": null,
       "ciqual_code": 16400,
       "default_unit": "g",
       "density_g_per_ml": null,
@@ -65,6 +74,24 @@
       "kcal_per_100g": null,
       "name": "carotte",
       "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 31080,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "chocolat noir pâtissier",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 13212,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "compote de pomme",
+      "piece_weight_g": 100
     },
     {
       "aisle": null,
@@ -118,6 +145,24 @@
       "density_g_per_ml": null,
       "kcal_per_100g": null,
       "name": "lardon fumé",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 11046,
+      "default_unit": "sachet",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "levure chimique",
+      "piece_weight_g": 11
+    },
+    {
+      "aisle": null,
+      "ciqual_code": null,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": 355,
+      "name": "maïzena",
       "piece_weight_g": null
     },
     {
@@ -176,7 +221,7 @@
     },
     {
       "aisle": null,
-      "ciqual_code": null,
+      "ciqual_code": 31016,
       "default_unit": "cs",
       "density_g_per_ml": 0.85,
       "kcal_per_100g": null,
@@ -186,6 +231,100 @@
   ],
   "inventory": [],
   "recipes": [
+    {
+      "cook_minutes": 40,
+      "description": "Cake moelleux à la banane et à la compote, avec des pépites de chocolat noir",
+      "ingredients": [
+        {
+          "name": "banane",
+          "note": "bien mûres",
+          "piece_weight_g": 120,
+          "quantity": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "compote de pomme",
+          "note": "pot individuel",
+          "piece_weight_g": 100,
+          "quantity": 1,
+          "unit": "piece"
+        },
+        {
+          "density_g_per_ml": 0.85,
+          "name": "sucre",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "name": "œuf",
+          "piece_weight_g": 55,
+          "quantity": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "farine",
+          "quantity": 133,
+          "unit": "g"
+        },
+        {
+          "name": "maïzena",
+          "quantity": 67,
+          "unit": "g"
+        },
+        {
+          "name": "levure chimique",
+          "piece_weight_g": 11,
+          "quantity": 1,
+          "unit": "sachet"
+        },
+        {
+          "name": "chocolat noir pâtissier",
+          "note": "tablette, dont la moitié cassée en petits morceaux au rouleau",
+          "quantity": 100,
+          "unit": "g"
+        }
+      ],
+      "notes": "Cuisson 35 à 40 min : vérifier avec la pointe d'un couteau, qui doit ressortir sèche. Les 200 g de farine se répartissent en 2/3 de farine et 1/3 de Maïzena.",
+      "prep_minutes": 15,
+      "servings": 8,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Préchauffer le four à 180 °C."
+        },
+        {
+          "text": "Écraser les bananes à la fourchette en laissant quelques petits morceaux."
+        },
+        {
+          "text": "Ajouter la compote, le sucre et les œufs, puis mélanger."
+        },
+        {
+          "text": "Ajouter la farine, la Maïzena et la levure, puis mélanger."
+        },
+        {
+          "text": "Casser la moitié de la tablette de chocolat au rouleau et couper le reste en pépites."
+        },
+        {
+          "text": "Incorporer le chocolat à la pâte et mélanger."
+        },
+        {
+          "text": "Verser la pâte dans le moule à cake."
+        },
+        {
+          "minutes": 40,
+          "text": "Enfourner jusqu'à ce que la lame d'un couteau ressorte sèche."
+        }
+      ],
+      "tags": [
+        "cake",
+        "banane",
+        "chocolat",
+        "dessert",
+        "goûter",
+        "sucré"
+      ],
+      "title": "Cake banane et pépites de chocolat"
+    },
     {
       "cook_minutes": 25,
       "description": "Pâte à crêpes simple avec 2 œufs, pour environ 12 à 14 crêpes",
