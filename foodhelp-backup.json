@@ -86,6 +86,15 @@
     },
     {
       "aisle": null,
+      "ciqual_code": 20082,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "chou-fleur",
+      "piece_weight_g": 1000
+    },
+    {
+      "aisle": null,
       "ciqual_code": 13212,
       "default_unit": "piece",
       "density_g_per_ml": null,
@@ -122,7 +131,7 @@
     },
     {
       "aisle": null,
-      "ciqual_code": null,
+      "ciqual_code": 12114,
       "default_unit": "g",
       "density_g_per_ml": null,
       "kcal_per_100g": null,
@@ -167,7 +176,7 @@
     },
     {
       "aisle": null,
-      "ciqual_code": null,
+      "ciqual_code": 11048,
       "default_unit": "g",
       "density_g_per_ml": null,
       "kcal_per_100g": null,
@@ -324,6 +333,123 @@
         "sucré"
       ],
       "title": "Cake banane et pépites de chocolat"
+    },
+    {
+      "cook_minutes": 40,
+      "description": "Gratin de chou-fleur classique à la béchamel, bien gratiné",
+      "ingredients": [
+        {
+          "name": "chou-fleur",
+          "piece_weight_g": 1000,
+          "quantity": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "beurre",
+          "quantity": 40,
+          "section": "Béchamel",
+          "unit": "g"
+        },
+        {
+          "name": "farine",
+          "quantity": 40,
+          "section": "Béchamel",
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1.03,
+          "name": "lait",
+          "quantity": 500,
+          "section": "Béchamel",
+          "unit": "ml"
+        },
+        {
+          "name": "gruyère",
+          "note": "râpé, ou emmental",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "density_g_per_ml": 1.2,
+          "name": "sel",
+          "quantity": 1,
+          "section": "Béchamel",
+          "unit": "pincee"
+        },
+        {
+          "name": "poivre",
+          "quantity": 1,
+          "section": "Béchamel",
+          "unit": "pincee"
+        },
+        {
+          "name": "muscade",
+          "note": "râpée",
+          "quantity": 1,
+          "section": "Béchamel",
+          "unit": "pincee"
+        }
+      ],
+      "notes": "Bien égoutter le chou-fleur après la précuisson, sinon le gratin rend de l'eau. Version plus légère : remplacer la moitié du fromage par du parmesan et utiliser du lait demi-écrémé. Ajouter des dés de jambon ou des lardons pour en faire un plat complet.",
+      "prep_minutes": 15,
+      "servings": 4,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Préchauffer le four à 200 °C."
+        },
+        {
+          "text": "Détailler le chou-fleur en bouquets."
+        },
+        {
+          "text": "Rincer les bouquets."
+        },
+        {
+          "minutes": 8,
+          "text": "Cuire les bouquets dans l'eau bouillante salée en les gardant légèrement fermes."
+        },
+        {
+          "text": "Égoutter soigneusement le chou-fleur."
+        },
+        {
+          "text": "Faire fondre le beurre dans une casserole."
+        },
+        {
+          "minutes": 1,
+          "text": "Ajouter la farine et remuer au fouet."
+        },
+        {
+          "text": "Verser le lait petit à petit sans cesser de fouetter."
+        },
+        {
+          "minutes": 5,
+          "text": "Laisser épaissir la béchamel à feu doux."
+        },
+        {
+          "text": "Hors du feu, ajouter la moitié du fromage, le sel, le poivre et la muscade."
+        },
+        {
+          "text": "Disposer le chou-fleur dans un plat beurré."
+        },
+        {
+          "text": "Napper le chou-fleur de béchamel."
+        },
+        {
+          "text": "Parsemer du reste de fromage."
+        },
+        {
+          "minutes": 25,
+          "text": "Enfourner jusqu'à ce que le dessus soit bien doré."
+        }
+      ],
+      "tags": [
+        "gratin",
+        "chou-fleur",
+        "légumes",
+        "plat",
+        "salé"
+      ],
+      "title": "Gratin de chou-fleur"
     },
     {
       "cook_minutes": 25,
