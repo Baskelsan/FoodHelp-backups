@@ -68,12 +68,30 @@
     },
     {
       "aisle": null,
+      "ciqual_code": 6259,
+      "default_unit": "g",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "bœuf haché",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
       "ciqual_code": 20353,
       "default_unit": "g",
       "density_g_per_ml": null,
       "kcal_per_100g": null,
       "name": "carotte",
       "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 12726,
+      "default_unit": "tranche",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "cheddar",
+      "piece_weight_g": 20
     },
     {
       "aisle": null,
@@ -104,6 +122,15 @@
     },
     {
       "aisle": null,
+      "ciqual_code": 11004,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "cornichon",
+      "piece_weight_g": 10
+    },
+    {
+      "aisle": null,
       "ciqual_code": 19431,
       "default_unit": "ml",
       "density_g_per_ml": 1,
@@ -131,11 +158,29 @@
     },
     {
       "aisle": null,
+      "ciqual_code": 20295,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "feuille de salade",
+      "piece_weight_g": 10
+    },
+    {
+      "aisle": null,
       "ciqual_code": 12114,
       "default_unit": "g",
       "density_g_per_ml": null,
       "kcal_per_100g": null,
       "name": "gruyère",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 11073,
+      "default_unit": "cs",
+      "density_g_per_ml": 1.1,
+      "kcal_per_100g": null,
+      "name": "ketchup",
       "piece_weight_g": null
     },
     {
@@ -176,6 +221,24 @@
     },
     {
       "aisle": null,
+      "ciqual_code": 11079,
+      "default_unit": "cs",
+      "density_g_per_ml": 0.91,
+      "kcal_per_100g": null,
+      "name": "mayonnaise",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 11013,
+      "default_unit": "cc",
+      "density_g_per_ml": 1.05,
+      "kcal_per_100g": null,
+      "name": "moutarde",
+      "piece_weight_g": null
+    },
+    {
+      "aisle": null,
       "ciqual_code": 11048,
       "default_unit": "g",
       "density_g_per_ml": null,
@@ -191,6 +254,24 @@
       "kcal_per_100g": null,
       "name": "œuf",
       "piece_weight_g": 55
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 20238,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "oignon rouge",
+      "piece_weight_g": 150
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 7262,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "pain à burger",
+      "piece_weight_g": 70
     },
     {
       "aisle": null,
@@ -236,6 +317,15 @@
       "kcal_per_100g": null,
       "name": "sucre",
       "piece_weight_g": null
+    },
+    {
+      "aisle": null,
+      "ciqual_code": 20385,
+      "default_unit": "piece",
+      "density_g_per_ml": null,
+      "kcal_per_100g": null,
+      "name": "tomate",
+      "piece_weight_g": 120
     }
   ],
   "inventory": [],
@@ -333,6 +423,161 @@
         "sucré"
       ],
       "title": "Cake banane et pépites de chocolat"
+    },
+    {
+      "cook_minutes": 10,
+      "description": "Cheeseburger classique avec steak bien saisi, cheddar fondu et sauce maison",
+      "ingredients": [
+        {
+          "name": "pain à burger",
+          "note": "briochés si possible",
+          "piece_weight_g": 70,
+          "quantity": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "bœuf haché",
+          "note": "15 % de matière grasse",
+          "quantity": 600,
+          "section": "Steaks",
+          "unit": "g"
+        },
+        {
+          "name": "cheddar",
+          "piece_weight_g": 20,
+          "quantity": 4,
+          "section": "Steaks",
+          "unit": "tranche"
+        },
+        {
+          "density_g_per_ml": 1.2,
+          "name": "sel",
+          "quantity": 1,
+          "section": "Steaks",
+          "unit": "pincee"
+        },
+        {
+          "name": "poivre",
+          "quantity": 1,
+          "section": "Steaks",
+          "unit": "pincee"
+        },
+        {
+          "density_g_per_ml": 0.91,
+          "name": "mayonnaise",
+          "quantity": 3,
+          "section": "Sauce",
+          "unit": "cs"
+        },
+        {
+          "density_g_per_ml": 1.1,
+          "name": "ketchup",
+          "quantity": 2,
+          "section": "Sauce",
+          "unit": "cs"
+        },
+        {
+          "density_g_per_ml": 1.05,
+          "name": "moutarde",
+          "quantity": 1,
+          "section": "Sauce",
+          "unit": "cc"
+        },
+        {
+          "name": "cornichon",
+          "note": "1 haché pour la sauce, le reste tranché",
+          "piece_weight_g": 10,
+          "quantity": 4,
+          "section": "Garniture",
+          "unit": "piece"
+        },
+        {
+          "name": "oignon rouge",
+          "note": "en fines rondelles",
+          "piece_weight_g": 150,
+          "quantity": 1,
+          "section": "Garniture",
+          "unit": "piece"
+        },
+        {
+          "name": "tomate",
+          "note": "tranchée",
+          "piece_weight_g": 120,
+          "quantity": 1,
+          "section": "Garniture",
+          "unit": "piece"
+        },
+        {
+          "name": "feuille de salade",
+          "piece_weight_g": 10,
+          "quantity": 4,
+          "section": "Garniture",
+          "unit": "piece"
+        }
+      ],
+      "notes": "Un bœuf haché à 15 % de matière grasse donne des steaks plus juteux qu'un 5 %. Ne saler les steaks qu'au moment de les cuire. Pour un steak bien cuit, compter 1 à 2 min de plus de chaque côté. En accompagnement : potatoes ou frites de patate douce au four.",
+      "prep_minutes": 15,
+      "servings": 4,
+      "source": "Claude",
+      "steps": [
+        {
+          "text": "Mélanger la mayonnaise, le ketchup et la moutarde dans un bol."
+        },
+        {
+          "text": "Hacher 1 cornichon et l'ajouter à la sauce."
+        },
+        {
+          "text": "Émincer l'oignon rouge en fines rondelles."
+        },
+        {
+          "text": "Trancher la tomate et les cornichons restants."
+        },
+        {
+          "text": "Laver les feuilles de salade."
+        },
+        {
+          "text": "Diviser le bœuf haché en 4 boules de 150 g."
+        },
+        {
+          "text": "Aplatir chaque boule en steak un peu plus large que les pains, sans trop tasser."
+        },
+        {
+          "text": "Faire un léger creux au centre de chaque steak avec le pouce."
+        },
+        {
+          "minutes": 1,
+          "text": "Couper les pains en deux et les toaster face coupée dans une poêle chaude."
+        },
+        {
+          "text": "Saler et poivrer les steaks."
+        },
+        {
+          "minutes": 3,
+          "text": "Saisir les steaks à feu vif sans les bouger."
+        },
+        {
+          "text": "Retourner les steaks et poser une tranche de cheddar sur chacun."
+        },
+        {
+          "minutes": 2,
+          "text": "Couvrir la poêle pour faire fondre le fromage."
+        },
+        {
+          "text": "Tartiner les pains de sauce."
+        },
+        {
+          "text": "Monter les burgers : salade, steak au cheddar, tomate, oignon, cornichons, puis refermer."
+        }
+      ],
+      "tags": [
+        "burger",
+        "cheeseburger",
+        "bœuf",
+        "plat",
+        "salé",
+        "convivial"
+      ],
+      "title": "Cheeseburger maison"
     },
     {
       "cook_minutes": 40,
